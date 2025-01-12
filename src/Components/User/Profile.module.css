@@ -1,0 +1,61 @@
+
+.profile{
+    background-color:ghostwhite;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 390px;
+    display:flex;
+    flex-direction: column;
+    padding-top: 16px;
+    margin: 20px auto;
+}
+.profileWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    border:3px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.userName{
+    margin-top:15px;
+    margin-bottom:20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.userText{
+    font-size: 20px;
+    font-weight:300;
+    margin-bottom:15px;
+    color: #3d3d3d;
+}
+.statsList{
+    background-color: lightgray;
+    border-top: 2px solid darkgray;
+    display:flex;
+    justify-content: space-between;
+
+}
+.statsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: 100%;
+    list-style: none;
+    border-right: 2px solid darkgray;
+    padding: 16px;
+}
+.statsItem:last-child{
+    border-right:none;
+}
+.statsText{
+    font-size: 25px;
+}
+.statsText:last-child{
+    font-weight: bold;
+}

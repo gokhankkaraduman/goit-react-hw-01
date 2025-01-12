@@ -1,0 +1,29 @@
+
+.tableHead{
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+}
+.tableBody tr:nth-child(2n){
+    background-color: #b6b6b6;
+}
+.tableBody tr:nth-child(2n+1){
+    background-color: ghostwhite;
+}
+.tableBody tr:hover{
+    background-color: #ddd;
+}
+
+td,
+th {
+    text-align: center;
+    font-weight: 500;
+    padding: 8px;
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 20px auto 0;
+    margin-bottom: 20px;
+}

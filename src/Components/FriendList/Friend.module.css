@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border: 3px solid black;
+    padding:20px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: ghostwhite;
+
+}
+.img{
+    width: 120px;
+    filter: brightness(1.2) drop-shadow(0 0 10px rgba(6, 240, 237, 1));
+}
+.friendText{
+    font-size: 32px;
+    font-weight: 500;
+}
+.text{
+    font-size:20px;
+    font-weight: 400;
+}
+.isOnline{
+    color:green
+}
+.isOffline{
+    color:red;
+}
